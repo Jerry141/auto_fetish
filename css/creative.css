@@ -308,9 +308,9 @@ header.masthead p {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
 }
 
-/*.fa {
+.fa {
   color: #FA1319;
-} */
+} 
 
 #nav_fb {
   padding: 0.05rem;
