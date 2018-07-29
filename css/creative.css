@@ -11,7 +11,7 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #F05F40;
+  border-color: #C50808;
 }
 
 hr.light {
@@ -19,7 +19,7 @@ hr.light {
 }
 
 a {
-  color: #F05F40;
+  color: #C50808;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -110,12 +110,12 @@ img::-moz-selection {
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: #F05F40;
+  color: #ED2323;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-  color: #F05F40 !important;
+  color: #ED2323 !important;
   background-color: transparent;
 }
 
@@ -151,10 +151,10 @@ img::-moz-selection {
     background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #F05F40;
+    color: #C50808;
   }
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #f05f40;
+    color: #C50808;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
@@ -162,7 +162,7 @@ img::-moz-selection {
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #F05F40;
+    color: #C50808;
   }
 }
 
@@ -230,8 +230,8 @@ header.masthead p {
   height: 100%;
   text-align: center;
   opacity: 0;
-  color: #fff;
-  background: rgba(240, 95, 64, 0.9);
+  color: white;
+  background: rgba(197, 8, 8, 0.9);
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -310,4 +310,20 @@ header.masthead p {
 
 .fa {
   color: #FA1319;
+} 
+
+.fa-facebook-square {
+  padding: 0.05rem;
+  color: #3B5998;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.fa-instagram {
+  padding: 0.05rem;
+  color: black;
+}
+
+.fa-facebook {
+  color: white;
 }
