@@ -308,22 +308,25 @@ header.masthead p {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
 }
 
-.fa {
+/*.fa {
   color: #FA1319;
-} 
+} */
 
-.fa-facebook-square {
+#nav_fb {
   padding: 0.05rem;
-  color: #3B5998;
+  color: #3B5998 !important;
   margin-right: 10px;
-  margin-left: 10px;
+}
+
+#nav_insta {
+  padding: 0.05rem;
+  color: black !important;
+}
+
+.fa-facebook-square{
+  color: white;
 }
 
 .fa-instagram {
-  padding: 0.05rem;
-  color: black;
-}
-
-.fa-facebook {
   color: white;
 }
