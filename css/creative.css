@@ -140,11 +140,11 @@ img::-moz-selection {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(51, 0, 0, 0.35);
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #fff;
+    color: #CC0000;
   }
   #mainNav.navbar-shrink {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
@@ -314,19 +314,19 @@ header.masthead p {
 
 #nav_fb {
   padding: 0.05rem;
-  color: #3B5998 !important;
+  color: #3B5998;
   margin-right: 10px;
 }
 
 #nav_insta {
   padding: 0.05rem;
-  color: black !important;
+  color: black;
 }
 
-.fa-facebook-square{
-  color: white;
+#nav_fb:hover, #nav_insta:hover {
+  color: red;
 }
 
-.fa-instagram {
+.fa-facebook-square, .fa-instagram{
   color: white;
 }
