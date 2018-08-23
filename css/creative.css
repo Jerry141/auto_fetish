@@ -330,3 +330,12 @@ header.masthead p {
 .fa-facebook-square, .fa-instagram{
   color: white;
 }
+
+#navlogo {
+  color: red;
+  justify-content: center;
+}
+
+#contactFB {
+  color: #3B5998;
+}
